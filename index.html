@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TeamDistribute</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="./css/style.css"> -->
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="container">
+        <h1>
+            チーム振り分け
+        </h1>
+    </header>
+    <hr>
+    <main class="container">
+        <section>
+            <article>
+                <h2>Members</h2>
+                <div id="nameList"></div>
+                <div class="btn-area row">
+                	<div class="col-sm-3">
+                        <button type="button" class="btn btn-dark btn-block" id="shuffle">shuffle</button>
+                    </div>
+                    <div class="col-sm-9 information">
+                        ※ ボタンを押したら再度シャッフルされます。<br>
+                        ※ round 3 が終了するまで押さないでください。
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div id="tables"></div>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <footer class="container">
+        &copy; Noboru Yasunari
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- <script src="./js/script.js"></script> -->
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+    background-color: #faeee7;
+    color: #594a4e;
+}
+header {
+	margin-top: 20px;
+}
+hr {
+    border: 3px solid #33272a;
+}
+article {
+    padding: 10px;
+}
+footer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn-area {
+    padding-top: 20px;
+}
+.information {
+    font-size: .9em;
+    color: #ff5980;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #ff8ba7;
+    border: 1px solid #ff5980;
+}
