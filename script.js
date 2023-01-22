@@ -96,16 +96,16 @@ document.querySelector('#shuffle').addEventListener('click', () => {
             .append(
                 $('<tr>')
                     .append(
-                        $('<th class="text-center">member</th>')
+                        $('<th class="text-center">CC →</th>')
                     )
                     .append(
-                        $('<th class="text-center">member</th>')
+                        $('<th class="text-center">CL →</th>')
                     )
                     .append(
-                        $('<th class="text-center">member</th>')
+                        $('<th class="text-center">OB →</th>')
                     )
                     .append(
-                        $('<th class="text-center">member</th>')
+                        $('<th class="text-center">OB →</th>')
                     )
             )
         ;
