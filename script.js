@@ -96,9 +96,6 @@ document.querySelector('#shuffle').addEventListener('click', () => {
             .append(
                 $('<tr>')
                     .append(
-                        $('<th>')
-                    )
-                    .append(
                         $('<th class="text-center">member</th>')
                     )
                     .append(
@@ -113,13 +110,7 @@ document.querySelector('#shuffle').addEventListener('click', () => {
             )
         ;
         $.each(teamNum, (j, value) => {
-            const $tr = $('<tr>')
-                .append(
-                    $('<th>')
-                        .html('team0' + (j + 1))
-                        .addClass('text-center')
-                )
-            ;
+            const $tr = $('<tr>');
             let memname;
             for (let k = 0; k < value; k++) {
                 for (let l = 0; l < newMember.length; l++) {
